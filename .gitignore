@@ -1,0 +1,36 @@
+# Large log files and archives
+logs/*.csv
+logs/*.log
+*.rar
+*.zip
+netlify/
+system/MetaCrate\ Modules/
+
+# Node modules
+node_modules/
+*/node_modules/
+
+# Database backups and large files
+database/exports/
+*.db-wal
+*.db-shm
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
